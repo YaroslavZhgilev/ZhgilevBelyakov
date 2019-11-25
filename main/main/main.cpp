@@ -32,8 +32,12 @@ case 1:
  break;
  }
  case 4: 
- {
+ { 
+	 if(b!=0){
 	 cout<<funcdiv(a,b)<<endl;
+ }else{
+	 cout<<"Delenie na 0 nevozmogno"<<endl;
+ }
  break;
  }
  default: 
