@@ -9,4 +9,8 @@ double funsi(double a)
 double funco(double a)
 	{
 		return cos(a*0.0174);
+}
+double funcstep(double a,double b)
+	{
+		return pow(a,b);
 };
