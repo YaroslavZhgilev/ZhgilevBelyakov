@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include "function1.h"
+#include "feature1.h"
 using namespace std;
 
 int main(int argc, char* argv[])
@@ -11,7 +12,7 @@ int main(int argc, char* argv[])
 			cin >> a;
 			cout << "Vvedite vtoroe chislo: "<<endl;
 			cin >> b;
-			cout << "Vibirite deistvie: 1-clojenie; 2-vichitanie; 3-ymnojenie; 4-delenie: "<<endl;
+			cout << "Vibirite deistvie: 1-clojenie; 2-vichitanie; 3-ymnojenie; 4-delenie; 5-vozvedenie v stepen; 6-cos pervogo chisla; 7-sin pervogo chisla "<<endl;
 			 cin >> count;
  switch (count) 
  {
@@ -38,6 +39,21 @@ case 1:
  }else{
 	 cout<<"Delenie na 0 nevozmogno"<<endl;
  }
+ break;
+ }
+ case 5: 
+ {
+	 cout<<funcstep(a,b)<<endl;
+ break;
+ }
+ case 6: 
+ {
+	 cout<<funco(a)<<endl;
+ break;
+ }
+ case 7: 
+ {
+	 cout<<funsi(a)<<endl;
  break;
  }
  default: 
