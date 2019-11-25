@@ -9,4 +9,12 @@ double funcsub(double a,double b)
 {
 	return a-b;
 }
+double funcadd(double a, double b)
+	{
+		return a+b;
+}
+double funcmulti(double a, double b)
+	{
+		return a*b;
+}
 
